@@ -1,0 +1,725 @@
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+\DeclareUnicodeCharacter{2009}{\,}
+\DeclareUnicodeCharacter{0302}{\^}
+@article{PhysRevApplied.11.034030,
+  title = {Experimental Realization of a Fast Controlled-Z Gate via a Shortcut to Adiabaticity},
+  author = {Wang, Tenghui and Zhang, Zhenxing and Xiang, Liang and Jia, Zhilong and Duan, Peng and Zong, Zhiwen and Sun, Zhenhai and Dong, Zhangjingzi and Wu, Jianlan and Yin, Yi and Guo, Guoping},
+  journal = {Phys. Rev. Applied},
+  volume = {11},
+  issue = {3},
+  pages = {034030},
+  numpages = {8},
+  year = {2019},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevApplied.11.034030},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevApplied.11.034030}
+}
+
+@article{PhysRevA.87.022309,
+  title = {High-fidelity controlled-${\ensuremath{\sigma}}^{Z}$ gate for resonator-based superconducting quantum computers},
+  author = {Ghosh, Joydip and Galiautdinov, Andrei and Zhou, Zhongyuan and Korotkov, Alexander N. and Martinis, John M. and Geller, Michael R.},
+  journal = {Phys. Rev. A},
+  volume = {87},
+  issue = {2},
+  pages = {022309},
+  numpages = {19},
+  year = {2013},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.87.022309},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevA.87.022309}
+}
+
+@article{Mariantoni2011ImplementingTQ,
+  title={Implementing the Quantum von Neumann Architecture with Superconducting Circuits},
+  author={M. Mariantoni and H. Wang and T. Yamamoto and M. Neeley and R. Bialczak and Y. Chen and M. Lenander and E. Lucero and A. O'Connell and D. Sank and M. Weides and J. Wenner and Y. Yin and J. Zhao and A. Korotkov and A. Cleland and J. Martinis},
+  journal={Science},
+  year={2011},
+  volume={334},
+  pages={61 - 65}
+}
+
+@article{JOHANSSON20131234,
+title = {QuTiP 2: A Python framework for the dynamics of open quantum systems},
+journal = {Computer Physics Communications},
+volume = {184},
+number = {4},
+pages = {1234-1240},
+year = {2013},
+issn = {0010-4655},
+doi = {https://doi.org/10.1016/j.cpc.2012.11.019},
+%url = {https://www.sciencedirect.com/science/article/pii/S0010465512003955},
+author = {J.R. Johansson and P.D. Nation and Franco Nori},
+keywords = {Open quantum systems, Lindblad, Bloch–Redfield, Floquet–Markov, Master equation, Quantum Monte Carlo, Python},
+}
+
+@article{li2021pulselevel,
+	doi = {10.22331/q-2022-01-24-630},
+  
+	%url = {https://doi.org/10.22331%2Fq-2022-01-24-630},
+  
+	year = 2022,
+	month = {jan},
+  
+	publisher = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
+  
+	volume = {6},
+  
+	pages = {630},
+  
+	author = {Boxi Li and Shahnawaz Ahmed and Sidhant Saraogi and Neill Lambert and Franco Nori and Alexander Pitchford and Nathan Shammah},
+  
+	title = {Pulse-level noisy quantum circuits with {QuTiP}
+},
+  
+	journal = {Quantum}
+}
+@misc{gong2021quantum,
+      title={Quantum walks on a programmable two-dimensional 62-qubit superconducting processor}, 
+      author={Ming Gong and Shiyu Wang and Chen Zha and Ming-Cheng Chen and He-Liang Huang and Yulin Wu and Qingling Zhu and Youwei Zhao and Shaowei Li and Shaojun Guo and Haoran Qian and Yangsen Ye and Fusheng Chen and Chong Ying and Jiale Yu and Daojin Fan and Dachao Wu and Hong Su and Hui Deng and Hao Rong and Kaili Zhang and Sirui Cao and Jin Lin and Yu Xu and Lihua Sun and Cheng Guo and Na Li and Futian Liang and V. M. Bastidas and Kae Nemoto and W. J. Munro and Yong-Heng Huo and Chao-Yang Lu and Cheng-Zhi Peng and Xiaobo Zhu and Jian-Wei Pan},
+      year={2021},
+      eprint={2102.02573},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}
+
+@Article{Barends2014,
+author={Barends, R.
+and Kelly, J.
+and Megrant, A.
+and Veitia, A.
+and Sank, D.
+and Jeffrey, E.
+and White, T. C.
+and Mutus, J.
+and Fowler, A. G.
+and Campbell, B.
+and Chen, Y.
+and Chen, Z.
+and Chiaro, B.
+and Dunsworth, A.
+and Neill, C.
+and O'Malley, P.
+and Roushan, P.
+and Vainsencher, A.
+and Wenner, J.
+and Korotkov, A. N.
+and Cleland, A. N.
+and Martinis, John M.},
+title={Superconducting quantum circuits at the surface code threshold for fault tolerance},
+journal={Nature},
+year={2014},
+month={Apr},
+day={01},
+volume={508},
+number={7497},
+pages={500-503},
+issn={1476-4687},
+doi={10.1038/nature13171},
+%url={https://doi.org/10.1038/nature13171}
+}
+
+@article{Tempel_2011,
+   title={Relaxation and dephasing in open quantum systems time-dependent density functional theory: Properties of exact functionals from an exactly-solvable model system},
+   volume={391},
+   ISSN={0301-0104},
+   %url={http://dx.doi.org/10.1016/j.chemphys.2011.03.014},
+   DOI={10.1016/j.chemphys.2011.03.014},
+   number={1},
+   journal={Chemical Physics},
+   publisher={Elsevier BV},
+   author={Tempel, David G. and Aspuru-Guzik, Alán},
+   year={2011},
+   month={Nov},
+   pages={130–142}
+}
+
+@book{2006The,
+  title={The Theory of Open Quantum Systems},
+  author={ Breuer, H. P.  and  Petruccione, F. },
+  publisher={The Theory of Open Quantum Systems},
+  year={2006},
+}
+
+@article{Koch_2007,
+   title={Charge-insensitive qubit design derived from the Cooper pair box},
+   volume={76},
+   ISSN={1094-1622},
+   %url={http://dx.doi.org/10.1103/PhysRevA.76.042319},
+   DOI={10.1103/physreva.76.042319},
+   number={4},
+   journal={Physical Review A},
+   publisher={American Physical Society (APS)},
+   author={Koch, Jens and Yu, Terri M. and Gambetta, Jay and Houck, A. A. and Schuster, D. I. and Majer, J. and Blais, Alexandre and Devoret, M. H. and Girvin, S. M. and Schoelkopf, R. J.},
+   year={2007},
+   month={Oct}
+}
+
+@article{Martinis_2014,
+   title={Fast adiabatic qubit gates using only $\sigma_z$ control},
+   volume={90},
+   ISSN={1094-1622},
+   %url={http://dx.doi.org/10.1103/PhysRevA.90.022307},
+   DOI={10.1103/physreva.90.022307},
+   number={2},
+   journal={Physical Review A},
+   publisher={American Physical Society (APS)},
+   author={Martinis, John M. and Geller, Michael R.},
+   year={2014},
+   month={Aug}
+}
+
+@article{Ghosh_2013,
+   title={Understanding the effects of leakage in superconducting quantum-error-detection circuits},
+   volume={88},
+   ISSN={1094-1622},
+   %url={http://dx.doi.org/10.1103/PhysRevA.88.062329},
+   DOI={10.1103/physreva.88.062329},
+   number={6},
+   journal={Physical Review A},
+   publisher={American Physical Society (APS)},
+   author={Ghosh, Joydip and Fowler, Austin G. and Martinis, John M. and Geller, Michael R.},
+   year={2013},
+   month={Dec}
+}
+
+
+@article{2019Quantum,
+	title = {Quantum supremacy using a programmable superconducting processor},
+	volume = {574},
+	issn = {1476-4687},
+	%url = {https://doi.org/10.1038/s41586-019-1666-5},
+	doi = {10.1038/s41586-019-1666-5},
+	number = {7779},
+	journal = {Nature},
+	author = {Arute, Frank and Arya, Kunal and Babbush, Ryan and Bacon, Dave and Bardin, Joseph C. and Barends, Rami and Biswas, Rupak and Boixo, Sergio and Brandao, Fernando G. S. L. and Buell, David A. and Burkett, Brian and Chen, Yu and Chen, Zijun and Chiaro, Ben and Collins, Roberto and Courtney, William and Dunsworth, Andrew and Farhi, Edward and Foxen, Brooks and Fowler, Austin and Gidney, Craig and Giustina, Marissa and Graff, Rob and Guerin, Keith and Habegger, Steve and Harrigan, Matthew P. and Hartmann, Michael J. and Ho, Alan and Hoffmann, Markus and Huang, Trent and Humble, Travis S. and Isakov, Sergei V. and Jeffrey, Evan and Jiang, Zhang and Kafri, Dvir and Kechedzhi, Kostyantyn and Kelly, Julian and Klimov, Paul V. and Knysh, Sergey and Korotkov, Alexander and Kostritsa, Fedor and Landhuis, David and Lindmark, Mike and Lucero, Erik and Lyakh, Dmitry and Mandrà, Salvatore and McClean, Jarrod R. and McEwen, Matthew and Megrant, Anthony and Mi, Xiao and Michielsen, Kristel and Mohseni, Masoud and Mutus, Josh and Naaman, Ofer and Neeley, Matthew and Neill, Charles and Niu, Murphy Yuezhen and Ostby, Eric and Petukhov, Andre and Platt, John C. and Quintana, Chris and Rieffel, Eleanor G. and Roushan, Pedram and Rubin, Nicholas C. and Sank, Daniel and Satzinger, Kevin J. and Smelyanskiy, Vadim and Sung, Kevin J. and Trevithick, Matthew D. and Vainsencher, Amit and Villalonga, Benjamin and White, Theodore and Yao, Z. Jamie and Yeh, Ping and Zalcman, Adam and Neven, Hartmut and Martinis, John M.},
+	month = oct,
+	year = {2019},
+	pages = {505--510},
+}
+
+@article{barends2019diabatic,
+  title={Diabatic gates for frequency-tunable superconducting qubits},
+  author={Barends, Rami and Quintana, CM and Petukhov, AG and Chen, Yu and Kafri, Dvir and Kechedzhi, Kostyantyn and Collins, Roberto and Naaman, Ofer and Boixo, Sergio and Arute, F and others},
+  journal={Physical review letters},
+  volume={123},
+  number={21},
+  pages={210501},
+  year={2019},
+  publisher={APS}
+}
+
+
+@article{DiCarlo_2009,
+   title={Demonstration of two-qubit algorithms with a superconducting quantum processor},
+   volume={460},
+   ISSN={1476-4687},
+   %url={http://dx.doi.org/10.1038/nature08121},
+   DOI={10.1038/nature08121},
+   number={7252},
+   journal={Nature},
+   publisher={Springer Science and Business Media LLC},
+   author={DiCarlo, L. and Chow, J. M. and Gambetta, J. M. and Bishop, Lev S. and Johnson, B. R. and Schuster, D. I. and Majer, J. and Blais, A. and Frunzio, L. and Girvin, S. M. },
+   year={2009},
+   month={Jun},
+   pages={240–244}
+}
+
+@article{Raginsky_2001,
+   title={A fidelity measure for quantum channels},
+   volume={290},
+   ISSN={0375-9601},
+   %url={http://dx.doi.org/10.1016/S0375-9601(01)00640-5},
+   DOI={10.1016/s0375-9601(01)00640-5},
+   number={1-2},
+   journal={Physics Letters A},
+   publisher={Elsevier BV},
+   author={Raginsky, Maxim},
+   year={2001},
+   month={Nov},
+   pages={11–18}
+}
+
+\iffalse
+@article{Li2019RealisationOH,
+  title={Realisation of high-fidelity nonadiabatic CZ gates with superconducting qubits},
+  author={Shaowei Li and Anthony D. Castellano and Shiyu Wang and Yulin Wu and Ming Gong and Zhiguang Yan and Hao Rong and Hui Deng and Chen Zha and Cheng Guo and Lihua Sun and Chengzhi Peng and Xiaobo Zhu and Jian-Wei Pan},
+  journal={npj Quantum Information},
+  year={2019},
+  volume={5},
+  pages={1-7}
+}
+\fi
+@article{Magesan_2020,
+	doi = {10.1103/physreva.101.052308},
+	%url = {https://doi.org/10.1103/PhysRevA.101.052308}, 
+	year = 2020,
+	month = {may},
+	publisher = {American Physical Society ({APS})},
+	volume = {101},
+	number = {5},
+	author = {Easwar Magesan and Jay M. Gambetta},
+	title = {Effective Hamiltonian models of the cross-resonance gate},
+	journal = {Physical Review A}
+}
+
+@misc{https://doi.org/10.48550/arxiv.1301.3585,
+  doi = {10.48550/ARXIV.1301.3585},
+  
+  %url = {https://arxiv.org/abs/1301.3585},
+  
+  author = {Fujii, Kazuyuki},
+  
+  keywords = {Quantum Physics (quant-ph), Mathematical Physics (math-ph), FOS: Physical sciences, FOS: Physical sciences},
+  
+  title = {Introduction to the Rotating Wave Approximation (RWA) : Two Coherent Oscillations},
+  
+  publisher = {arXiv},
+  
+  year = {2013},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@article{PhysRevA.97.022330,
+  title = {Analytical modeling of parametrically modulated transmon qubits},
+  author = {Didier, Nicolas and Sete, Eyob A. and da Silva, Marcus P. and Rigetti, Chad},
+  journal = {Phys. Rev. A},
+  volume = {97},
+  issue = {2},
+  pages = {022330},
+  numpages = {13},
+  year = {2018},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.97.022330},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevA.97.022330}
+}
+
+@article{PhysRevB.81.134507,
+  title = {Fully microwave-tunable universal gates in superconducting qubits with linear couplings and fixed transition frequencies},
+  author = {Rigetti, Chad and Devoret, Michel},
+  journal = {Phys. Rev. B},
+  volume = {81},
+  issue = {13},
+  pages = {134507},
+  numpages = {7},
+  year = {2010},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.81.134507},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevB.81.134507}
+}
+
+@article{PhysRevB.87.220505,
+  title = {First-order sideband transitions with flux-driven asymmetric transmon qubits},
+  author = {Strand, J. D. and Ware, Matthew and Beaudoin, Felix and Ohki, T. A. and Johnson, B. R. and Blais, Alexandre and Plourde, B. L. T.},
+  journal = {Phys. Rev. B},
+  volume = {87},
+  issue = {22},
+  pages = {220505},
+  numpages = {5},
+  year = {2013},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.87.220505},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevB.87.220505}
+}
+
+@article{Tripathi_2019,
+	doi = {10.1103/physreva.100.012301},
+	%url = {https://doi.org/10.1103/physreva.100.012301},
+  
+	year = 2019,
+	month = {jul},
+  
+	publisher = {American Physical Society ({APS})},
+  
+	volume = {100},
+  
+	number = {1},
+  
+	author = {Vinay Tripathi and Mostafa Khezri and Alexander N. Korotkov},
+  
+	title = {Operation and intrinsic error budget of a two-qubit cross-resonance gate},
+  
+	journal = {Physical Review A}
+}
+
+@article{Allen_2017,
+  title={Optimal control of two qubits via a single cavity drive in circuit quantum electrodynamics},
+  author={Joseph L. Allen and Robert L. Kosut and Jaewoo Joo and Peter J. Leek and Eran Ginossar},
+  journal={Physical Review A},
+  year={2017},
+  volume={95},
+  pages={042325}
+}
+
+@article{Moskalenko_2021,
+	doi = {10.1063/5.0064800},
+  
+	%url = {https://doi.org/10.1063/5.0064800},
+  
+	year = 2021,
+	month = {nov},
+  
+	publisher = {{AIP} Publishing},
+  
+	volume = {119},
+  
+	number = {19},
+  
+	pages = {194001},
+  
+	author = {I. N. Moskalenko and I. S. Besedin and I. A. Simakov and A. V. Ustinov},
+  
+	title = {Tunable coupling scheme for implementing two-qubit gates on fluxonium qubits},
+  
+	journal = {Applied Physics Letters}
+}
+
+@article{PhysRevApplied.10.034050,
+  title = {Parametrically Activated Entangling Gates Using Transmon Qubits},
+  author = {S. A. Caldwell and N. Didier and C. A. Ryan and E. A. Sete and A. Hudson and P. Karalekas and R. Manenti and M. P. da Silva and R. Sinclair and E. Acala and N. Alidoust and J. Angeles and A. Bestwick and M. Block and B. Bloom and A. Bradley and C. Bui and L. Capelluto and R. Chilcott and J. Cordova and G. Crossman and M. Curtis and S. Deshpande and T. El Bouayadi and D. Girshovich and S. Hong and K. Kuang and M. Lenihan and T. Manning and A. Marchenkov and J. Marshall and R. Maydra and Y. Mohan and W. O'Brien and C. Osborn and J. Otterbach and A. Papageorge and J.-P. Paquette and M. Pelstring and A. Polloreno and G. Prawiroatmodjo and V. Rawat and M. Reagor and R. Renzas and N. Rubin and D. Russell and M. Rust and D. Scarabelli and M. Scheer and M. Selvanayagam and R. Smith and A. Staley and M. Suska and N. Tezak and D. C. Thompson and T.-W. To and M. Vahidpour and N. Vodrahalli and T. Whyland and K. Yadav and W. Zeng and C. Rigetti},
+  journal = {Phys. Rev. Applied},
+  volume = {10},
+  issue = {3},
+  pages = {034050},
+  numpages = {8},
+  year = {2018},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevApplied.10.034050},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevApplied.10.034050}
+}
+
+@article{PhysRevResearch.2.033447,
+  title = {Benchmarking the noise sensitivity of different parametric two-qubit gates in a single superconducting quantum computing platform},
+  author = {Ganzhorn, M. and Salis, G. and Egger, D. J. and Fuhrer, A. and Mergenthaler, M. and M\"uller, C. and M\"uller, P. and Paredes, S. and Pechal, M. and Werninghaus, M. and Filipp, S.},
+  journal = {Phys. Rev. Research},
+  volume = {2},
+  issue = {3},
+  pages = {033447},
+  numpages = {18},
+  year = {2020},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.2.033447},
+  %url = {https://link.aps.org/doi/10.1103/PhysRevResearch.2.033447}
+}
+
+@article{Knill_2008,
+	doi = {10.1103/physreva.77.012307},
+  
+	%url = {https://doi.org/10.1103/physreva.77.012307},
+  
+	year = 2008,
+	month = {jan},
+  
+	publisher = {American Physical Society ({APS})},
+  
+	volume = {77},
+  
+	number = {1},
+  
+	author = {E. Knill and D. Leibfried and R. Reichle and J. Britton and R. B. Blakestad and J. D. Jost and C. Langer and R. Ozeri and S. Seidelin and D. J. Wineland},
+  
+	title = {Randomized benchmarking of quantum gates},
+  
+	journal = {Physical Review A}
+}
+
+@article{PhysRevX.11.021058,
+  title = {Realization of High-Fidelity CZ and $ZZ$-Free iSWAP Gates with a Tunable Coupler},
+  author = {Sung, Youngkyu and Ding, Leon and Braum\"uller, Jochen and Veps\"al\"ainen, Antti and Kannan, Bharath and Kjaergaard, Morten and Greene, Ami and Samach, Gabriel O. and McNally, Chris and Kim, David and Melville, Alexander and Niedzielski, Bethany M. and Schwartz, Mollie E. and Yoder, Jonilyn L. and Orlando, Terry P. and Gustavsson, Simon and Oliver, William D.},
+  journal = {Phys. Rev. X},
+  volume = {11},
+  issue = {2},
+  pages = {021058},
+  numpages = {32},
+  year = {2021},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevX.11.021058},
+  url = {https://link.aps.org/doi/10.1103/PhysRevX.11.021058}
+}
+
+
+@unpublished{fault_sim,
+  title={Fault simulation for superconducting quantum circuits},
+  note = {unpublished}
+}
+
+@INPROCEEDINGS{Li_2020,
+  author={Hsieh, Cheng-Yun and Wu, Chen-Hung and Huang, Chia-Hsien and Goan, His-Sheng and Mo Li, James Chien},
+  booktitle={2020 57th ACM/IEEE Design Automation Conference (DAC)}, 
+  title={Realistic Fault Models and Fault Simulation for Quantum Dot Quantum Circuits}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/DAC18072.2020.9218573}}
+
+%Inbook{Knuth97,
+%  author =       "Donald E. Knuth",
+%  title =        "The Art of Computer Programming",
+%  booktitle =    "the booktitle",
+%  edition =      "3",
+%  volume =       "1",
+%  year =         "1997",
+%  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+%  editor =       "",
+%  number =       "",
+%  series =       "Fundamental Algorithms",
+%  type =         "",
+%  chapter =      "",
+%  pages =        "",
+%  address =      "",
+%  month =        "",
+%  note =         "(inbook)",
+%}
+
+%INBOOK{DK:73-inbook-full,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (inbook w series)",
+%   volume = 1,
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   edition = "Second",
+%   month = "10~" # jan,
+%   year = "1973",
+%   type = "Section",
+%   chapter = "1.2",
+%   pages = "10--119",
+%   note = "Full INBOOK entry (w series)",
+%}
+
+%INcollection{DK:74-incoll,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1974",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor",
+%}
+
+%INcollection{DK:75-incollws,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll w series)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1975",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor and series",
+%}
+
+
